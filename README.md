@@ -1,6 +1,6 @@
 # ArcLens-Photography
 
-ArcLens Photography is a site dedicated to the architectural and property based photography in Ireland, with a core base in Dublin. The site will be targeted towards potential clients and enthusiasts that are interested in photography, and more specifically architectural photography. This site will serve as a first enticing introduction to the company and provide users with the oppurtunity to observe some of the companies portfolio. It will also provide users with the facility to reach out with a query or potential job.
+ArcLens Photography is a company that specialises in architectural and property based photography in Ireland, with a core base in Dublin. The sites main aim is to advertise the company and its portfolio and will be targeted toward potential clients. This site will serve as a first enticing introduction to the company and provide users with the oppurtunity to observe some of the companies portfolio. It will also provide users with the facility to reach out with a query or potential job.
 
 ## Features
 
@@ -16,6 +16,7 @@ __The landing page images__
 
   - The landing page includes a series of stacked photographs with appearing text overlay to allow the user to access the portfolio without using the navigation bar.
   - Each image will be a navigation link that brings the user directly to that section of the portfolio.
+  - The key with the landing page, as with all the pages contained within this site is simplicity of design and use. 
 
 __Footer__
 
