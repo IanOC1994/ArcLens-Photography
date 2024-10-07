@@ -20,7 +20,6 @@ ArcLens Photography is a company that specialises in architectural and property 
 
   - As a frequent user, I want to be able to stay informed and kept upto date with company activities and projects.
   - As a frequent user, I want to see an up to date portfolio of works completed. 
-  -
 
 ## Features
 
@@ -44,5 +43,5 @@ __Footer__
 
 __Portfolio__
 
-  - The portfolio will be a drop down navigation bar which provides links to all elements of the company portfolio: Commercial, Residential, Retail, Landscape.
+  - The portfolio will be a drop down navigation bar which provides links to all elements of the company portfolio: Commercial, Residential, Retail, Landscape, Historic, Alternative.
   - These links will inturn have different projects that the company has engaged with. 
