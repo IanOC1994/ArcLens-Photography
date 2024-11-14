@@ -1,95 +1,162 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* Root Variables */
+
+:root {
+    --background-color: #d6c2af;
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "lato", cursive;
 }
 
-/* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /*Generic project styles */
-    color: #3a3a3a;
-    font-family: 'lato', sans-serif;
-    text-transform: uppercase;
+	margin: 0;
+	background: #ffffff;
+	font-family: var(--secondary-font);
+	font-weight: 400;
 }
 
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    font-weight: 400;
 }
 
-/* Header */
+/*Navbar*/
+
 header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu {
-    font-size: 100%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
-
-#menu > li {
-    margin-bottom: 1em; 
-}
-
-/*Navbar styles with dropdown toggle */
-
-ul {
-    list-style: none;
-    background: #ffffff;
-}
-
-ul li {
-    display: inline-block;
-    position: relative;
-}
-
-ul li a {
-    display: block;
-    padding: 20px 25px;
-    color: #3a3a3a;
-    text-decoration: none;
+    background: var(--background-color);
     text-align: center;
-    font-size: 15px;
-}
-
-ul li ul.dropdown li {
-    display: block;
-}
-
-ul li ul.dropdown {
-    width: 100%;
-    background-color: #ffffff;
-    position: absolute;
+    position: fixed;
     z-index: 999;
+    width: 100%;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.nav-toggle {
     display: none;
 }
 
-ul li a:hover {
-    color: black;
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
-ul li:hover ul.dropdown {
+/* Burger Menu from scratch - thanks to Kevin Powell */
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
     display: block;
+    background: black;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+    top: 7px;
+}
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: var(--background-color);
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.nav-toggle:checked ~ nav {
+    transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+/* Media Queries */
+/* Navbar Media Query */
+@media screen and (min-width: 1024px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+    }
+
+    .logo {
+        grid-column: 1 / 2;
+    }
+
+    nav {
+        all: unset;
+        grid-column: 4/ 5;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        margin-left: 2em;
+        margin-bottom: 0;
+    }
+
+    nav a {
+        opacity: 1;
+    }
 }
