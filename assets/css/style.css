@@ -161,39 +161,3 @@ nav a:hover {
         opacity: 1;
     }
 }
-
-@media screen and (min-width: 1440px) {
-   
-    header {
-        display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
-        padding: 0 20px;
-    }
-
-    .logo {
-        grid-column: 1 / 2;
-        font-size: 20px;
-    }
-
-    nav {
-        all: unset;
-        grid-column: 4/ 5;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin-right: 60px;
-    }
-
-    nav ul {
-        display: flex;
-    }
-
-    nav li {
-        margin-left: 2em;
-        margin-bottom: 0;
-    }
-
-    nav li a {
-        margin-left: 20px;
-    }
-}
