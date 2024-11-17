@@ -22,6 +22,7 @@ h3 {
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 1.2rem;
+    margin-left: 20px;
 }
 
 /*Navbar*/
@@ -59,8 +60,8 @@ header {
 .nav-toggle-label span::after {
     display: block;
     background: black;
-    height: 1.5px;
-    width: 1.5em;
+    height: 1.2px;
+    width: 1.2em;
     border-radius: 2px;
     position: relative;
 }
@@ -81,7 +82,6 @@ header {
 
 nav {
     position: absolute;
-    text-align: left;
     top: 100%;
     left: 0;
     background: var(--background-color);
@@ -98,8 +98,7 @@ nav ul {
 }
 
 nav li {
-    margin-bottom: 1em;
-    margin-left: 1em;
+    margin: 1em 1em 1em 1em;
 }
 
 nav a {
@@ -109,6 +108,20 @@ nav a {
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    margin-top: 30px; /* Space between menu and social links */
+}
+
+.social-media a {
+    font-size: 1.0rem; /* Icon size */
+    color: black;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -126,6 +139,14 @@ nav a:hover {
 
 /* Media Queries */
 /* Navbar Media Query */
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 25px;
+    }
+}
+
+
 @media screen and (min-width: 1024px) {
     .nav-toggle-label {
         display: none;
