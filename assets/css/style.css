@@ -147,10 +147,10 @@ main {
     flex-direction: column;
 }
 
-/* Carousel */
+/* Hero Carousel */
 
 .container {
-    padding: 50px 0 30px 0;
+    padding: 49px 0 30px 0;
 }
 
 .slider-wrap {
@@ -175,6 +175,7 @@ main {
 .slider img {
     flex: 1 0 100%;
     scroll-snap-align: start;
+    height: auto; /* Ensures images scale proportionally */
     object-fit: cover;
 }
 
@@ -282,6 +283,25 @@ main {
         justify-content: right;
         margin-top: 0px;
         margin-bottom: 10px;
+    }
+
+    /* Hero Carousel for larger screens */
+    .container {
+        padding: 85px 0 30px 0;
+    }
+
+    .slider {
+        aspect-ratio: 0;
+    }
+
+    .slider-wrap {
+        position: relative;
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+
+    .slider img {
+        height: 50vh; /* Reduce height further for very large screens */
     }
 }
 
