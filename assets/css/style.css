@@ -218,3 +218,10 @@ nav a:hover {
         margin-right: 30px;
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .social-media {
+        justify-content: center;
+        margin-right: 50px;
+    }
+}
