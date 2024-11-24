@@ -37,6 +37,17 @@ header {
     width: 100%;
 }
 
+.logo-link {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits the color from the parent element */
+    display: inline-block; /* Ensures the link behaves like the original block-level h1 */
+}
+
+.logo-link:hover,
+.logo-link:focus {
+    text-decoration: none; /* Prevent underline on hover or focus */
+}
+
 .logo {
     text-transform: uppercase;
 }
