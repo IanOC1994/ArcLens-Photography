@@ -281,7 +281,6 @@ main h3 {
 /* General Styling */
 .testimonials-container {
     padding: 10px;
-    margin-bottom: 100px;
     background-color: #ffffff;
     text-align: center;
     position: relative; 
@@ -354,6 +353,39 @@ main h3 {
     color: #000000;
     text-align: center;
 }
+
+/* Home page contact link */
+
+.contact-us-container {
+    padding: 10px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.contact-us p {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+button {
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    padding: 0.75em 2em;
+    background: #d6c2af;
+    border: 0.1em solid #c7a381;
+    margin-top: 10px;
+    border-radius: 100vw;
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+button:hover,
+button:focus-visible {
+    background: #c7a381;
+}
+
 
 /* Footer */
 
