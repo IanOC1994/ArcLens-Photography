@@ -358,7 +358,7 @@ main h3 {
 
 .contact-us-container {
     padding: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     background-color: #ffffff;
     text-align: center;
     position: relative;
@@ -393,7 +393,7 @@ button:focus-visible {
 }
 
 #portfolio-contact-us {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 #portfolio-contact-us p {
@@ -482,7 +482,6 @@ button:focus-visible {
     padding: 10px 0;
     clear: both;
     width: 100%;
-    position: fixed;
     bottom: 0;
 }
 
@@ -498,7 +497,7 @@ button:focus-visible {
     /* Form */
 
     .contact-container {
-        padding: 20px 20px 100px; /* Adds space between form and footer */
+        padding: 20px 20px 40px; /* Adds space between form and footer */
     }
     .contact-box {
         padding: 20px;
