@@ -330,7 +330,7 @@ main h3 {
 .client-name {
     font-size: 13px;
     text-transform: uppercase;
-    color: #555;
+    color: #000000;
     margin-top: 0.5rem;
 }
 
@@ -436,7 +436,7 @@ button:focus-visible {
 .input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid; 
     font-family: inherit;
     font-size: 13px;
 }
@@ -685,5 +685,10 @@ button:focus-visible {
 
     .contact-form-button button {
         padding: 15px 30px;
+    }
+
+    .social-media {
+        justify-content: flex-end;
+        margin-right: 32px;
     }
 }

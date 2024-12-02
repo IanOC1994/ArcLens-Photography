@@ -6,6 +6,8 @@ Visitors to this website can view our previous works through our portfolio, lear
 
 The site can be accessed by this link.
 
+![screenshot](documentation/responsiveness/responsive-image.png)
+
 ## User Stories for ArcLens Photography
 
 ### 1. Visitor/ Potential Client
@@ -38,3 +40,81 @@ The site can be accessed by this link.
 Design was based on a 'Bauhaus' colour scheme and design ethos. Bauhaus is a 20th century German design school of thought that follows the principal tenant of "form follows function and less is more". This style is characterised by a purposeful lack of ornamentation and a focus on clean lines to return forms to their essential elements. The style often includes the use of geometric shapes such as squares, triangles and circles.
 
 In my design, I have opted for a clean minimalistic style of interface which follows the bauhaus principles and colour palette. This will aid in the accsessiblity and usability of the site.
+
+### Colour Scheme
+
+The colour scheme was inspired by some of the main tones found in Bauhaus design.
+
+The aim of the colour scheme was to be light and inviting while matching in with the Bauhaus colour palatte. I opted for warm tan colours and then plain and simple black and white to make images and text stand out.
+
+- '#d6c2af' was used as the primary background for headers, footers and navbar. It was also used as the primary colour for buttons.
+- '#c7a381' was used as the secondary colour and was utilised as a border colour for buttons. I was also the background colour for hover effects on buttons. 
+- '#000000' was used as the primary colour for all text.
+- '#ccc'    was used as the secondary colour for text and appeared as the placeholder text in the contact form. 
+- '#ffffff' was used as the primary background for the body of each page. 
+- '#f4c150' was used as the colour for the star rating in testimonials.
+
+I used the site [colorkit.io](https://colorkit.co/palette/d6c2af-c7a381-ffffff-ccc-000000-f4c150/) to create my colour palette.
+
+![screenshot](documentation/colorkit.png)
+
+### Typography
+
+I chose [Montserrat](https://fonts.google.com/specimen/Montserrat) as my primary font in this project for its clean lines and adherence to Bauhaus design asthetics. 
+
+As a contrast, [Lato](https://fonts.google.com/specimen/Lato) was choosen for the secondary font and used in testimonials and the contact form.
+
+Sans-serif and cursive were used as fallback fonts. 
+
+[Font Awesome](https://fontawesome.com) icons were used for all social media links in the burger menu and header. 
+
+[favicon generator](https://favicon.io/favicon-converter/) was used to create a tab icon.
+
+## Wireframes
+
+### Home Page
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/arclens-home-mobile.png) |
+| Tablet | ![screenshot](documentation/wireframes/#) |
+| Desktop | ![screenshot](documentation/wireframes/#) |
+
+### Portfolio Page
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/arclens-portfolio-mobile.png) |
+| Tablet | ![screenshot](documentation/wireframes/#) |
+| Desktop | ![screenshot](documentation/wireframes/#) |
+
+### Contact Page
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/arclens-contact-mobile.png) |
+| Tablet | ![screenshot](documentation/wireframes/#) |
+| Desktop | ![screenshot](documentation/wireframes/#) |
+
+## Features
+
+### Existing Features
+
+- **Header & Navigation**
+
+- Header with logo and navigation page allows for easy access to all available pages. I also made the choice to include the social media icons in the header beneath the nav bar for both style and functionality. My reasoning: people do not always scroll to the botton of the page.
+
+---
+
+ ![screenshot](documentation/features/desktop-nav.png)  
+
+ ---
+
+- It is responsive depending on screen size. When it drops down beyond 1024px, all nav items and social media links are place in a burger menu.
+
+---
+
+
+ ![screenshot](documentation/features/mobile-nav-closed.png)
+
+ ![screenshot](documentation/features/mobile-nav-open.png)    
