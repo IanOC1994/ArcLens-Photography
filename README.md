@@ -104,17 +104,42 @@ Sans-serif and cursive were used as fallback fonts.
 
 - Header with logo and navigation page allows for easy access to all available pages. I also made the choice to include the social media icons in the header beneath the nav bar for both style and functionality. My reasoning: people do not always scroll to the botton of the page.
 
----
-
  ![screenshot](documentation/features/desktop-nav.png)  
-
- ---
 
 - It is responsive depending on screen size. When it drops down beyond 1024px, all nav items and social media links are place in a burger menu.
 
----
-
-
  ![screenshot](documentation/features/mobile-nav-closed.png)
 
- ![screenshot](documentation/features/mobile-nav-open.png)    
+ ![screenshot](documentation/features/mobile-nav-open.png)   
+
+ - **Portfolio Navigation** 
+
+ - The choice was made to include the portfolio navigation on both the home and portfolio pages. This design choice was made to improve user interaction. Users have the facility to access the websites portfolio on the home page without to many clicks. The navigation is fully adaptable for all screen sizes and goes from fixed text to appearing text on larger screens when the mouse is hovered over it. 
+
+ ![screenshot](documentation/features/desktop-portfolio-nav.png)
+
+ ![screenshot](documentation/features/mobile&tablet-portfolio-nav.png)
+
+ - **Contact Us Button**
+
+ - This feature is included on every page outside of the contact page to give users the opportunity to access the contact form from anywhere on the website. This improves the user experience as it makes the website extremely accessible and encourages potential clients to reach out which is the overarching aim of the website as a whole. 
+
+ ![screenshot](documentation/features/contact-us-button.png)
+
+- **Contact Us Form**
+
+- The contact form allows users to reach out and request a quotation or call back as well as any other queries. The form requires all field to be filled to successfully send. 
+
+![screenshot](documentation/features/contact-us-form.png)
+
+- **Contact Us Success Message**
+
+- This message triggers once the send button has been triggered on the contact form. This provides the user with some feedback that thier query has been sent to the recipient successfully. 
+
+![screenshot](documentation/features/#)
+
+- **Footer**
+
+- The footer is purposefully plain in this specific project as a personal choice of the designer. I often find users do not scroll to the bottom of the page and therefore the footer contents can often be lost. 
+
+![screenshot](documentation/features/footer.png)
