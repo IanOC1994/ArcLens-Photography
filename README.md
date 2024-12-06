@@ -100,7 +100,7 @@ Sans-serif and cursive were used as fallback fonts.
 
 ### Existing Features
 
-- **Header & Navigation**
+**Header & Navigation**
 
 - Header with logo and navigation page allows for easy access to all available pages. I also made the choice to include the social media icons in the header beneath the nav bar for both style and functionality. My reasoning: people do not always scroll to the botton of the page.
 
@@ -112,7 +112,7 @@ Sans-serif and cursive were used as fallback fonts.
 
  ![screenshot](documentation/features/mobile-nav-open.png)   
 
- - **Portfolio Navigation** 
+ **Portfolio Navigation** 
 
  - The choice was made to include the portfolio navigation on both the home and portfolio pages. This design choice was made to improve user interaction. Users have the facility to access the websites portfolio on the home page without to many clicks. The navigation is fully adaptable for all screen sizes and goes from fixed text to appearing text on larger screens when the mouse is hovered over it. 
 
@@ -120,26 +120,107 @@ Sans-serif and cursive were used as fallback fonts.
 
  ![screenshot](documentation/features/mobile&tablet-portfolio-nav.png)
 
- - **Contact Us Button**
+ **Contact Us Button**
 
  - This feature is included on every page outside of the contact page to give users the opportunity to access the contact form from anywhere on the website. This improves the user experience as it makes the website extremely accessible and encourages potential clients to reach out which is the overarching aim of the website as a whole. 
 
  ![screenshot](documentation/features/contact-us-button.png)
 
-- **Contact Us Form**
+**Contact Us Form**
 
 - The contact form allows users to reach out and request a quotation or call back as well as any other queries. The form requires all field to be filled to successfully send. 
 
 ![screenshot](documentation/features/contact-us-form.png)
 
-- **Contact Us Success Message**
+**Contact Us Success Message**
 
 - This message triggers once the send button has been triggered on the contact form. This provides the user with some feedback that thier query has been sent to the recipient successfully. 
 
 ![screenshot](documentation/features/#)
 
-- **Footer**
+**Favicon in Page Tab**
+
+- The camera lens diapraghm makes the tab easily identifiable as a photography related website and therefore easier for the user to find.
+
+![screenshot](documentation/features/favicon.png)
+
+**Footer**
 
 - The footer is purposefully plain in this specific project as a personal choice of the designer. I often find users do not scroll to the bottom of the page and therefore the footer contents can often be lost. 
 
 ![screenshot](documentation/features/footer.png)
+
+### Future Features
+
+**About Section**
+
+- Moving forward with this project, I would like to add functionality to the about section in order to provide a place for the user to learn more about the company and the people that work there. 
+
+**News Section**
+
+- The addition of a news section would allow users to stay up to date with company activities and projects in the form of regular news bulletins. 
+
+## Tools and Technologies
+
+The following are a list of tools and technologies used in the creation of this project:
+
+-HTML was used to create the site content
+-CSS was used to style the site content
+-CSS Root Variables were used to allow for reusable styles throughout the project.
+-CSS Flexbox was used to create a more responsive and appealing layout.
+-Git Commands were used to ensure version control and the saving and proper storing of files to GitHub.
+-Gitpod used as a cloud based integrated development environment for the creatiion of files and file structures.
+-GitHub Pages were used for the deployment and hosting of the site.
+-Fontawesome used to source icons for social media links. 
+-Favicon.io was used to convert the icon I wished to use for the site browser tab. 
+-TinyPNG was used to reduce image sizes. 
+
+## Testing
+
+For the testing outcomes of this site please refer to the [TESTING.md](TESTING.md) file.
+
+## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+- In the [GitHub repository](https://github.com/IanOC1994/arclens-photography), navigate to the Settings tab 
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://ianoc1994.github.io/arclens-photography/)
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/IanOC1994/arclens-photography) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/IanOC1994/arclens-photography.git`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/IanOC1994/arclens-photography)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/IanOC1994/arclens-photography)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+## Local VS Deployment
+
+There are no difference between the deployed version and the development version.
