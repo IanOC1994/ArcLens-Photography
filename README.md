@@ -78,7 +78,7 @@ Sans-serif and cursive were used as fallback fonts.
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/arclens-home-mobile.png) |
 | Tablet | ![screenshot](documentation/wireframes/#) |
-| Desktop | ![screenshot](documentation/wireframes/#) |
+| Desktop | ![screenshot](documentation/wireframes/arclens-home-desktop.png) |
 
 ### Portfolio Page
 
@@ -86,7 +86,7 @@ Sans-serif and cursive were used as fallback fonts.
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/arclens-portfolio-mobile.png) |
 | Tablet | ![screenshot](documentation/wireframes/#) |
-| Desktop | ![screenshot](documentation/wireframes/#) |
+| Desktop | ![screenshot](documentation/wireframes/arclens-portfolio-desktop.png) |
 
 ### Contact Page
 
@@ -94,7 +94,7 @@ Sans-serif and cursive were used as fallback fonts.
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/arclens-contact-mobile.png) |
 | Tablet | ![screenshot](documentation/wireframes/#) |
-| Desktop | ![screenshot](documentation/wireframes/#) |
+| Desktop | ![screenshot](documentation/wireframes/arclens-contact-desktop.png) |
 
 ## Features
 
@@ -120,6 +120,14 @@ Sans-serif and cursive were used as fallback fonts.
 
  ![screenshot](documentation/features/mobile&tablet-portfolio-nav.png)
 
+ **Testimonials**
+
+ - This was a crucial feature for inclusion as it allows users to see comments from previous clients and build trust in the business.
+
+ - As you can see from the wireframes above, the design has shifted slightly from concept to realisation. I thought it was important to include this difference as it shows the development of the project as it unfolded. 
+
+ ![screenshot](documentation/features/testimonial.png)
+
  **Contact Us Button**
 
  - This feature is included on every page outside of the contact page to give users the opportunity to access the contact form from anywhere on the website. This improves the user experience as it makes the website extremely accessible and encourages potential clients to reach out which is the overarching aim of the website as a whole. 
@@ -136,7 +144,9 @@ Sans-serif and cursive were used as fallback fonts.
 
 - This message triggers once the send button has been triggered on the contact form. This provides the user with some feedback that thier query has been sent to the recipient successfully. 
 
-![screenshot](documentation/features/#)
+- I have also included a return button which allows the user to return to the homepage of the site.
+
+![screenshot](documentation/features/contact-success-message.png)
 
 **Favicon in Page Tab**
 
@@ -164,16 +174,16 @@ Sans-serif and cursive were used as fallback fonts.
 
 The following are a list of tools and technologies used in the creation of this project:
 
--HTML was used to create the site content
--CSS was used to style the site content
--CSS Root Variables were used to allow for reusable styles throughout the project.
--CSS Flexbox was used to create a more responsive and appealing layout.
--Git Commands were used to ensure version control and the saving and proper storing of files to GitHub.
--Gitpod used as a cloud based integrated development environment for the creatiion of files and file structures.
--GitHub Pages were used for the deployment and hosting of the site.
--Fontawesome used to source icons for social media links. 
--Favicon.io was used to convert the icon I wished to use for the site browser tab. 
--TinyPNG was used to reduce image sizes. 
+- HTML was used to create the site content.
+- CSS was used to style the site content.
+- CSS Root Variables were used to allow for reusable styles throughout the project.
+- CSS Flexbox was used to create a more responsive and appealing layout.
+- Git Commands were used to ensure version control and the saving and proper storing of files to GitHub.
+- Gitpod used as a cloud based integrated development environment for the creatiion of files and file structures.
+- GitHub Pages were used for the deployment and hosting of the site.
+- Fontawesome used to source icons for social media links. 
+- Favicon.io was used to convert the icon I wished to use for the site browser tab. 
+- TinyPNG was used to reduce image sizes. 
 
 ## Testing
 
