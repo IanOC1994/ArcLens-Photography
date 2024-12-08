@@ -46,3 +46,20 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Tablet (DevTools) | ![screenshot](documentation/responsiveness/tablet.png) | Works correctly  |
 | Desktop (DevTools) | ![screenshot](documentation/responsiveness/desktop.png) | Works correctly  |
 | Desktop large (DevTools) | ![screenshot](documentation/responsiveness/desktop-large.png) | Works correctly  |
+
+## Lighthouse Audit
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Size | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | Mobile | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | Some warnings,  Slower response time due to large images |
+| Home | Desktop | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Some warnings,  Slower response time due to large images |
+| Portfolio | Mobile | ![screenshot](documentation/lighthouse/lighthouse-portfolio-mobile.png) | Some warnings,  Slower response time due to large images |
+| Portfolio | Desktop | ![screenshot](documentation/lighthouse/lighthouse-portfolio-desktop.png) | Some warnings,  Slower response time due to large images |
+| Contact | Mobile | ![screenshot](documentation/lighthouse/lighthouse-contact-mobile.png) | Some warnings,  Slower response time due to large images |
+| Contact | Desktop | ![screenshot](documentation/lighthouse/lighthouse-contact-desktop.png) | Some warnings,  Slower response time due to large images |
+| Contact Success | Mobile | ![screenshot](documentation/lighthouse/lighthouse-contact-success-mobile.png) | Some warnings,  Slower response time due to large images |
+| Contact Success | Desktop | ![screenshot](documentation/lighthouse/lighthouse-contact-success-desktop.png) | Some warnings,  Slower response time due to large images |
+
+- Some of the lighthouse tests where slower due to the size of images in the carousel. I tested reducing the image size however, as you can see this has caused a degredation of quality.
