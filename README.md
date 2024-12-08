@@ -77,7 +77,6 @@ Sans-serif and cursive were used as fallback fonts.
 | Size | Screenshot |
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/arclens-home-mobile.png) |
-| Tablet | ![screenshot](documentation/wireframes/#) |
 | Desktop | ![screenshot](documentation/wireframes/arclens-home-desktop.png) |
 
 ### Portfolio Page
@@ -85,7 +84,6 @@ Sans-serif and cursive were used as fallback fonts.
 | Size | Screenshot |
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/arclens-portfolio-mobile.png) |
-| Tablet | ![screenshot](documentation/wireframes/#) |
 | Desktop | ![screenshot](documentation/wireframes/arclens-portfolio-desktop.png) |
 
 ### Contact Page
@@ -93,8 +91,9 @@ Sans-serif and cursive were used as fallback fonts.
 | Size | Screenshot |
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/arclens-contact-mobile.png) |
-| Tablet | ![screenshot](documentation/wireframes/#) |
 | Desktop | ![screenshot](documentation/wireframes/arclens-contact-desktop.png) |
+
+- For this project I used balsamiq wireframes to help visualise my project and begin to structure the layout. In hindsight, I would have put more time into these in the beginning and created them for every screen size. 
 
 ## Features
 
@@ -234,3 +233,29 @@ You can fork this repository by using the following steps:
 ## Local VS Deployment
 
 There are no difference between the deployed version and the development version.
+
+## Credits
+
+### Content
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
+| [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/02-creating-the-header/05-navigation-styling-2/index.html) | entire site | form success structure and link |
+| [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA&t=0s) | Navbar/header structure | responsive header and navbar creation. Plus, learned how to build a burger menu with purely CSS |
+
+
+
+### Media
+
+| Source | Type | Notes |
+| --- | --- | --- |
+[Pexels](https://www.pexels.com/) | images | All images used for carousel, portfolio and testimonials |
+
+
+### Acknowledgements
+
+- I would like to thank my mentor, Oluwafemi Medale for all of his support throughout this project. Femi was extremely encouraging and gave me the confidence to get this project finished.
+- I would like to thank the Code Institute Slack community for being there to answer any of my questions or just provide a supportive ear.
+- I would like to that the Code Institute tutor support team as they were extremely helpful throughout this project and supported me in something that was so new.
+- Finally, I would like to thank my wife Ciana. Her support throughout this project has been what has kept me going. 
