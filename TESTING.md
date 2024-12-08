@@ -27,3 +27,22 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Portfolio | ![screenshot](documentation/validation/html-portfolio-validation-2.png) | Pass: No Errors |
 | Contact | ![screenshot](documentation/validation/html-contact-validation-1.png) | Pass: No Errors |
 | Contact Success | ![screenshot](documentation/validation/html-contact-success-validation-2.png) | Pass: No Errors |
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS file for this project.
+
+| Page | Screenshot | Notes |
+| --- | --- | --- |
+| style.css | ![screenshot](documentation/validation/css-validation.png) | Pass: No Errors |
+
+## Responsiveness
+
+I've tested my deployed project on multiple devices to check for responsiveness issues.
+
+| Device | Screenshot | Notes |
+| --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/responsiveness/mobile.png) | Works correctly |
+| Tablet (DevTools) | ![screenshot](documentation/responsiveness/tablet.png) | Works correctly  |
+| Desktop (DevTools) | ![screenshot](documentation/responsiveness/desktop.png) | Works correctly  |
+| Desktop large (DevTools) | ![screenshot](documentation/responsiveness/desktop-large.png) | Works correctly  |

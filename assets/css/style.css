@@ -171,6 +171,7 @@ main {
 
 .hero-container {
     padding: 49px 0 20px 0;
+    margin-top: 43px;
 }
 
 .slider-wrap {
@@ -537,8 +538,12 @@ main h4 {
 /* Navbar Media Query */
 @media screen and (min-width: 768px) {
     h1 {
-        font-size: 25px;
         margin-left: 0;
+    }
+
+    .hero-container {
+        padding: 35px 0 20px 0;
+        margin-top: 18px;
     }
 
     /* Form */
@@ -601,7 +606,8 @@ main h4 {
 
     /* Hero Carousel for larger screens */
     .hero-container {
-        padding: 85px 0 30px 0;
+        padding: 80px 0 30px 0;
+        margin-top: 0;
     }
 
     .slider {
@@ -698,6 +704,10 @@ main h4 {
     .social-media {
         justify-content: right;
         margin-right: 30px;
+    }
+
+    .hero-container {
+        margin-top: 0;
     }
 
     /* Form */
