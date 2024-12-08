@@ -20,10 +20,11 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
     font-family: var(--primary-font);
     font-weight: 400;
-    font-size: 1.2rem;
     margin-left: 20px;
 }
 
@@ -160,6 +161,12 @@ main {
     flex-direction: column;
 }
 
+/* Hero Carousel Header */
+
+.carousel-header {
+    margin: 0;
+}
+
 /* Hero Carousel */
 
 .hero-container {
@@ -180,7 +187,7 @@ main {
     scroll-behavior: smooth;
 }
 
-/* Hide scrollbar for Chrome */
+/* Hide scrollbar slider for Chrome */
 .slider::-webkit-scrollbar {
 	display: none;
 }
@@ -215,26 +222,24 @@ main {
     opacity: 1;
 }
 
-/* Intro text below carousel */
-
-main h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-left: 0;
-}
+/* Intro text for home portfolio section */
 
 main h3 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 12.5px;
+    margin-left: 0;
+}
+
+main h4 {
+    text-align: center;
+    text-transform: uppercase;
     margin-left: 0;
 }
 
 /* Home portfolio section */
 
 .portfolio-container {
-    display: flex;
+    display: grid;
     justify-content: center;
     padding: 10px;
 }
@@ -287,7 +292,6 @@ main h3 {
 }
 
 .testimonials-header {
-    font-size: 15px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 20px;
@@ -364,15 +368,18 @@ main h3 {
     position: relative;
 }
 
-.contact-us p {
+.contact-us h5 {
     font-family: var(--primary-font);
-    font-size: 13px;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
-button {
+.contact-us-link {
     font-family: var(--primary-font);
     text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
     padding: 0.75em 2em;
     background: #d6c2af;
     border: 0.1em solid #c7a381;
@@ -381,16 +388,26 @@ button {
     cursor: pointer;
     transition: background-color 250ms;
 }
-button:hover,
-button:focus-visible {
+.contact-us-link:hover,
+.contact-us-link:focus-visible {
     background: #c7a381;
 }
 
 /* Portfolio page styles */
 
-.portfolio-header-container {
-    margin-top: 70px;
+.portfolio-page-container {
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
 }
+
+.portfolio-intro-text {
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 0;
+}
+
 
 #portfolio-contact-us {
     margin-bottom: 20px;
@@ -410,9 +427,9 @@ button:focus-visible {
     flex: 1;
 }
 
-.contact-intro-text h2 {
+.contact-intro-text {
     text-align: center;
-    font-size: 15px;
+    text-transform: uppercase;
     margin-bottom: 20px;
 }
 
@@ -599,7 +616,6 @@ button:focus-visible {
 
     .slider img {
         height: 60vh;
-        padding-top: 15px;
     }
 
     /* Home portfolio nav*/
